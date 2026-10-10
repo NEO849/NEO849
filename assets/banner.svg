@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Michael — Security Engineer and AI-Systems Builder">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="0%" r="90%">
+      <stop offset="0%" stop-color="rgba(120,150,170,0.14)"/>
+      <stop offset="60%" stop-color="rgba(120,150,170,0)"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(22,24,28,0.86)"/>
+      <stop offset="100%" stop-color="rgba(12,13,16,0.92)"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="300" fill="#0b0d10"/>
+  <rect width="1280" height="300" fill="url(#grid)"/>
+  <rect width="1280" height="300" fill="url(#glow)"/>
+
+  <!-- Glass-Panel -->
+  <rect x="64" y="60" width="1152" height="180" rx="16" fill="url(#panel)" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="64" y="60" width="1152" height="1" fill="rgba(255,255,255,0.06)"/>
+
+  <!-- Name -->
+  <text x="104" y="138" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="46" font-weight="700" letter-spacing="2" fill="#ffffff">MICHAEL</text>
+  <!-- Akzentlinie -->
+  <rect x="106" y="152" width="64" height="3" fill="#5f9bb0"/>
+  <!-- Tagline -->
+  <text x="104" y="190" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="400" letter-spacing="1" fill="rgba(255,255,255,0.72)">Security Engineer &#183; AI-Systems Builder</text>
+
+  <!-- Chips -->
+  <g font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" letter-spacing="1" fill="rgba(255,255,255,0.78)">
+    <rect x="104" y="206" width="168" height="26" rx="13" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="118" y="223">OFFENSIVE SECURITY</text>
+    <rect x="284" y="206" width="150" height="26" rx="13" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="298" y="223">KI-AUTOMATION</text>
+    <rect x="446" y="206" width="186" height="26" rx="13" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="460" y="223">ON-DEVICE-PRIVACY</text>
+  </g>
+
+  <!-- rechter Akzent: dezenter Knoten-Cluster (Agenten-Anspielung) -->
+  <g stroke="rgba(95,155,176,0.5)" stroke-width="1.2" fill="rgba(95,155,176,0.85)">
+    <line x1="1000" y1="120" x2="1080" y2="100"/><line x1="1000" y1="120" x2="1070" y2="170"/><line x1="1080" y1="100" x2="1140" y2="150"/><line x1="1070" y1="170" x2="1140" y2="150"/><line x1="1000" y1="120" x2="1140" y2="150"/>
+    <circle cx="1000" cy="120" r="5"/><circle cx="1080" cy="100" r="5"/><circle cx="1070" cy="170" r="5"/><circle cx="1140" cy="150" r="5"/>
+  </g>
+</svg>
