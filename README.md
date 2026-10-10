@@ -1,54 +1,53 @@
-# Hey, ich bin Michael
+# Michael — Security Engineer & AI-Systems Builder
 
-**Security Researcher | iOS/macOS Developer | Automation Enthusiast**
+**Offensive Security · KI-Automation · On-Device-Privacy**
 
-Ich verbinde Offensive Security mit Software Development. Tagsüber suche ich Schwachstellen in Web-Applikationen, abends baue ich die Tools, die mir dabei helfen.
-
----
-
-### Security Research
-
-- Aktiver Bug Bounty Researcher auf **Intigriti** und **HackerOne**
-- Fokus: Web Application Security (IDOR, Auth Bypass, Information Disclosure)
-- Eigene Recon-Pipelines und Automatisierung auf Linux VPS
-- Verifizierte Findings mit CVSS-Bewertungen bei mehreren Programmen
-
-### Development
-
-- **Swift / SwiftUI** — native macOS und iOS Apps
-- **Metal Shading Language** — GPU-Programmierung und Echtzeit-Rendering
-- **Kotlin / Jetpack Compose** — Android-Entwicklung
-- **Python** — Security-Tooling und Automation
-- **Linux Administration** — VPS-Setup, Docker, Bash
+Ich baue und breche Systeme — und schütze Menschen davor. Tagsüber suche ich Schwachstellen
+in Web-Applikationen, parallel baue ich eine stark automatisierte KI-/Security-Infrastruktur,
+die diese Arbeit skaliert: Agenten-Orchestrierung, lokale LLMs, selbst-lernendes Gedächtnis,
+eigene MCP-Server, Skills und reproduzierbare Pipelines — alles auf eigenem, gehärtetem Server.
 
 ---
 
-### Projekte
+### Was ich baue
 
-| Projekt | Beschreibung | Tech |
-|---------|-------------|------|
-| [SwiftScout](https://github.com/NEO849/SwiftScout) | Xcode Source Code Extension — findet Referenzen per Shortcut und zeigt sie im Floating Panel | Swift, XcodeKit, SourceKitten |
-| [NeoVimExplorer](https://github.com/NEO849/NeoVimExplorer) | Dateimanager im NeoVim-Stil mit Neon-Themes, CLI-Terminal und Fuzzy-Suche | Swift, SwiftUI, AppKit |
-| [ChakraVisualizer](https://github.com/NEO849/Chakren) | GPU-basierte Chakra-Visualisierung mit Metal Fragment Shadern | Swift, MetalKit, MSL |
+**priframe — On-Device-Gesichtsschutz.** Gesichtsredaktion, die zu 100 % im Browser auf dem
+Gerät läuft. Kein Upload, kein Server-Roundtrip — Privacy by design.
+→ [priframe.com](https://priframe.com)
+
+**Eigene KI-/Security-Infrastruktur.** Ein orchestrierter Agenten-Verbund mit Fach-"Professoren"
+im Review-Loop, lokalen Modellen, einem selbst-lernenden Markdown+git-Gedächtnis, eigenen
+MCP-Servern, Skills und reproduzierbaren Pipelines. Entworfen für überprüfbare, belastbare
+Ergebnisse statt Black-Box-Automatik.
+
+**Offensive Security.** Web Application Security mit Angreifer-Blick (IDOR/BOLA, Auth-Bypass,
+Information Disclosure). Eigene Recon-Pipelines auf Linux; Findings methodisch verifiziert,
+CVSS-bewertet, sauber dokumentiert.
 
 ---
 
-### Tech Stack
+### Ausgewählte Projekte
+
+| Projekt | Worum es geht | Stack |
+|---|---|---|
+| [qwen-memory-agent](https://github.com/NEO849/qwen-memory-agent) | Regress-Guard — selbst-korrigierendes Gedächtnis für KI-Coding-Agenten: ein einmal behobener Bug kehrt nicht zurück (Qwen-Hackathon) | Python |
+| [markmem](https://github.com/NEO849/markmem) | Selbst-lernendes, selbst-tunendes KI-Gedächtnis auf Markdown + git | Python |
+| [agentdeck](https://github.com/NEO849/agentdeck) | Ein-Befehl-Integration einer tmux-Agenten-Sidebar in Claude Code | Shell |
+| [aria-password-tester](https://github.com/NEO849/aria-password-tester) | Web-Passwortstärke-Tester: Live-Analyse, zxcvbn, Shannon-Entropie | Python |
+| [neo-portfolio](https://github.com/NEO849/neo-portfolio) | Portfolio + live betriebene OSINT-Intelligence-Suite — React-Frontend bis gehärtete FastAPI | TypeScript |
+
+---
+
+### Tech
 
 ```
-Security      Burp Suite, Caido, Nuclei, Custom Recon Scripts
-Development   Swift, Kotlin, Python, SwiftUI, Metal, Jetpack Compose
-Infrastruktur Linux, Docker, Bash, Git
-Plattformen   macOS, iOS, Ubuntu Server
+Security      Web-AppSec (IDOR/BOLA, Auth, Info-Disclosure), Recon-Automation, Caido/Burp, Nuclei
+KI-Systeme    Agenten-Orchestrierung, MCP-Server, lokale LLMs, selbst-lernendes Gedächtnis, Pipelines
+Development   Python, TypeScript/React, Swift/SwiftUI, Kotlin
+Infrastruktur Linux (gehärtet), Docker, Bash, git, Cloudflare, Tailscale
 ```
 
 ---
 
-### Kontakt
-
-- Intigriti: [cypherneo](https://app.intigriti.com)
-- HackerOne: [luicypher_neo](https://hackerone.com)
-
----
-
-*Aktuell offen für Positionen im Bereich IT Security / Penetration Testing / DevSecOps.*
+*Offen für Projekte & Zusammenarbeit im Bereich sichere KI-Automation, Privacy-Engineering
+und offensive Security.*
