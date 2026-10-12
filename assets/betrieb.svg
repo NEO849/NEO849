@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1520 660" width="1520" height="660" font-family="DejaVu Sans, system-ui, sans-serif">
+<defs><marker id="arr" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L7,3 L0,6 Z" fill="#8a94a3"/></marker></defs>
+<rect width="1520" height="660" fill="#0b0f14"/>
+<text x="40" y="46" font-family="JetBrains Mono, ui-monospace, monospace" font-size="20" font-weight="700" fill="#e6ebf0" text-anchor="start" letter-spacing="1">AUTONOMER BETRIEB — SELBST-BEWACHT, MELDET AUFS HANDY</text>
+<text x="40" y="70" font-family="DejaVu Sans, system-ui, sans-serif" font-size="13.5" font-weight="400" fill="#8a94a3" text-anchor="start" letter-spacing="0">läuft ohne Aufsicht weiter — jede Aktion abgesichert, jedes Ereignis gemeldet, alles rückgekoppelt ins Gedächtnis</text>
+<rect x="40" y="120" width="300" height="54" rx="9" fill="#141820" stroke="#8a94a3" stroke-width="1.4"/>
+<text x="190" y="152" font-family="JetBrains Mono, ui-monospace, monospace" font-size="14" font-weight="600" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">JEDE TOOL-AKTION</text>
+<rect x="40" y="210" width="300" height="150" rx="9" fill="#1b2129" stroke="#5f9bb0" stroke-width="1.8"/>
+<text x="60" y="238" font-family="JetBrains Mono, ui-monospace, monospace" font-size="14" font-weight="700" fill="#5f9bb0" text-anchor="start" letter-spacing="0">SAFETY-HOOKS</text>
+<text x="60" y="264" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ injection_scanner</text>
+<text x="60" y="284" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ scope_authz_gate</text>
+<text x="60" y="304" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ kill_switch · loop_detection</text>
+<text x="60" y="324" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ safe_hook · prompt_prefilter</text>
+<text x="60" y="344" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="400" fill="#8a94a3" text-anchor="start" letter-spacing="0">▸ über 16 Lifecycle-Events</text>
+<line x1="190" y1="174" x2="190" y2="210" stroke="#8a94a3" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="400" y="150" width="320" height="110" rx="9" fill="#141820" stroke="#6b8f71" stroke-width="1.7"/>
+<text x="420" y="178" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13.5" font-weight="700" fill="#6b8f71" text-anchor="start" letter-spacing="0">AUTONOME RADARS</text>
+<text x="420" y="202" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ target-radar · trend-radar</text>
+<text x="420" y="222" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ asset-monitor · hacktivity-stream</text>
+<text x="420" y="246" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" font-weight="400" fill="#8a94a3" text-anchor="start" letter-spacing="0">scannen rund um die Uhr</text>
+<rect x="400" y="290" width="320" height="90" rx="9" fill="#141820" stroke="#8f7fb0" stroke-width="1.7"/>
+<text x="420" y="318" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13.5" font-weight="700" fill="#8f7fb0" text-anchor="start" letter-spacing="0">HEALTH · SELF-AUDIT</text>
+<text x="420" y="342" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ Heartbeat · Token-Rot-Check</text>
+<text x="420" y="362" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ OnFailure-Netz · Selbstheilung</text>
+<line x1="340" y1="285" x2="400" y2="210" stroke="#8a94a3" stroke-width="1.4" marker-end="url(#arr)"/>
+<line x1="340" y1="285" x2="400" y2="330" stroke="#8a94a3" stroke-width="1.4" marker-end="url(#arr)"/>
+<rect x="790" y="150" width="320" height="110" rx="9" fill="#1b2129" stroke="#b08d57" stroke-width="1.8"/>
+<text x="810" y="178" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" font-weight="700" fill="#b08d57" text-anchor="start" letter-spacing="0">ntfy  ·  SELF-HOSTED :8936</text>
+<text x="810" y="202" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ Tailscale-only + Token</text>
+<text x="810" y="222" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ Topics bb-urgent · radar · health</text>
+<text x="810" y="246" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" font-weight="400" fill="#8a94a3" text-anchor="start" letter-spacing="0">Push in Sekunden</text>
+<rect x="790" y="290" width="320" height="90" rx="9" fill="#141820" stroke="#38617a" stroke-width="1.7"/>
+<text x="810" y="318" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" font-weight="700" fill="#38617a" text-anchor="start" letter-spacing="0">HANDY · ACTION-BUTTONS</text>
+<text x="810" y="342" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ ntfy-webhook :8939</text>
+<text x="810" y="362" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ Knopfdruck → Server-Aktion</text>
+<line x1="720" y1="205" x2="790" y2="205" stroke="#8a94a3" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="720" y1="335" x2="790" y2="335" stroke="#8a94a3" stroke-width="1.5" marker-end="url(#arr)"/>
+<path d="M 950 380 C 950 440, 190 460, 190 405" fill="none" stroke="#38617a" stroke-width="1.5" marker-end="url(#arr)" stroke-dasharray="5 4"/>
+<text x="760.0" y="452" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="400" fill="#38617a" text-anchor="middle" letter-spacing="0">Knopf am Handy löst serverseitig aus  ·  RemoteTrigger</text>
+<rect x="40" y="500" width="1440" height="64" rx="9" fill="#1b2129" stroke="#b08d57" stroke-width="1.6"/>
+<text x="64" y="528" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" font-weight="700" fill="#b08d57" text-anchor="start" letter-spacing="0">RÜCKKOPPLUNG</text>
+<text x="64" y="550" font-family="DejaVu Sans, system-ui, sans-serif" font-size="13" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">jedes Ereignis → session-reflect → 523-Datei-Memory — das System lernt aus seinem eigenen Betrieb</text>
+<line x1="190" y1="360" x2="190" y2="500" stroke="#232b35" stroke-width="1.2"/>
+<line x1="560" y1="380" x2="560" y2="500" stroke="#232b35" stroke-width="1.2"/>
+<line x1="950" y1="380" x2="950" y2="500" stroke="#232b35" stroke-width="1.2"/>
+</svg>

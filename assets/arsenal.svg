@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 950" width="1600" height="950" font-family="DejaVu Sans, system-ui, sans-serif">
+<defs><marker id="arr" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L7,3 L0,6 Z" fill="#8a94a3"/></marker></defs>
+<rect width="1600" height="950" fill="#0b0f14"/>
+<text x="40" y="46" font-family="JetBrains Mono, ui-monospace, monospace" font-size="20" font-weight="700" fill="#e6ebf0" text-anchor="start" letter-spacing="1.5">DAS ARSENAL — AUF EINEN BLICK</text>
+<text x="40" y="70" font-family="DejaVu Sans, system-ui, sans-serif" font-size="13.5" font-weight="400" fill="#8a94a3" text-anchor="start" letter-spacing="0">autorisierte offensive &amp; defensive Fähigkeiten, in Werkzeuge und reproduzierbare Verfahren gegossen</text>
+<rect x="40.0" y="100" width="490.6666666666667" height="258" rx="9" fill="#141820" stroke="#5f9bb0" stroke-width="1.6"/>
+<rect x="40.0" y="100" width="490.6666666666667" height="36" rx="9" fill="#1b2129" stroke="#5f9bb0" stroke-width="0"/>
+<text x="56.0" y="123" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" font-weight="700" fill="#e6ebf0" text-anchor="start" letter-spacing="0">RECON &amp; OSINT</text>
+<rect x="451.5666666666667" y="107" width="67.1" height="22" rx="11" fill="#0b0f14" stroke="#5f9bb0" stroke-width="1.2"/>
+<text x="485.11666666666673" y="122" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" font-weight="600" fill="#5f9bb0" text-anchor="middle" letter-spacing="0">Phase 1</text>
+<text x="56.0" y="160" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ nmap_max · masscan</text>
+<text x="56.0" y="185" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ subfinder · amass</text>
+<text x="56.0" y="210" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ httpx · katana · gau</text>
+<text x="56.0" y="235" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ shodan · censys (MCP)</text>
+<text x="56.0" y="260" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ exa · firecrawl</text>
+<text x="56.0" y="285" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ target-radar · asset-monitor</text>
+<rect x="554.6666666666667" y="100" width="490.6666666666667" height="258" rx="9" fill="#141820" stroke="#5f9bb0" stroke-width="1.6"/>
+<rect x="554.6666666666667" y="100" width="490.6666666666667" height="36" rx="9" fill="#1b2129" stroke="#5f9bb0" stroke-width="0"/>
+<text x="570.6666666666667" y="123" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" font-weight="700" fill="#e6ebf0" text-anchor="start" letter-spacing="0">WEB-APPSEC</text>
+<rect x="980.8333333333335" y="107" width="52.5" height="22" rx="11" fill="#0b0f14" stroke="#5f9bb0" stroke-width="1.2"/>
+<text x="1007.0833333333335" y="122" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" font-weight="600" fill="#5f9bb0" text-anchor="middle" letter-spacing="0">aktiv</text>
+<text x="570.6666666666667" y="160" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ ffuf · gobuster · feroxbuster</text>
+<text x="570.6666666666667" y="185" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ caido / burp (MCP-Bridge)</text>
+<text x="570.6666666666667" y="210" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ nuclei · dalfox · arjun</text>
+<text x="570.6666666666667" y="235" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ desync · cache-deception</text>
+<text x="570.6666666666667" y="260" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ authrecon · elite-auth-hunt</text>
+<rect x="1069.3333333333335" y="100" width="490.6666666666667" height="258" rx="9" fill="#141820" stroke="#b08d57" stroke-width="1.6"/>
+<rect x="1069.3333333333335" y="100" width="490.6666666666667" height="36" rx="9" fill="#1b2129" stroke="#b08d57" stroke-width="0"/>
+<text x="1085.3333333333335" y="123" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" font-weight="700" fill="#e6ebf0" text-anchor="start" letter-spacing="0">EXPLOIT &amp; CHAIN</text>
+<rect x="1459.0000000000002" y="107" width="89.0" height="22" rx="11" fill="#0b0f14" stroke="#b08d57" stroke-width="1.2"/>
+<text x="1503.5000000000002" y="122" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" font-weight="600" fill="#b08d57" text-anchor="middle" letter-spacing="0">20 Klassen</text>
+<text x="1085.3333333333335" y="160" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ vuln-* : IDOR·SQLi·SSRF</text>
+<text x="1085.3333333333335" y="185" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ SSTI·RCE·XXE·JWT·XSS</text>
+<text x="1085.3333333333335" y="210" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ mass-assign·path-traversal</text>
+<text x="1085.3333333333335" y="235" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ chaining · variant-hunt</text>
+<text x="1085.3333333333335" y="260" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ poc-validator · cold-witness</text>
+<rect x="40.0" y="382" width="490.6666666666667" height="258" rx="9" fill="#141820" stroke="#8f7fb0" stroke-width="1.6"/>
+<rect x="40.0" y="382" width="490.6666666666667" height="36" rx="9" fill="#1b2129" stroke="#8f7fb0" stroke-width="0"/>
+<text x="56.0" y="405" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" font-weight="700" fill="#e6ebf0" text-anchor="start" letter-spacing="0">AD &amp; LATERAL</text>
+<rect x="458.86666666666673" y="389" width="59.8" height="22" rx="11" fill="#0b0f14" stroke="#8f7fb0" stroke-width="1.2"/>
+<text x="488.76666666666677" y="404" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" font-weight="600" fill="#8f7fb0" text-anchor="middle" letter-spacing="0">intern</text>
+<text x="56.0" y="442" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ Kerberoast · AS-REP</text>
+<text x="56.0" y="467" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ DCSync · delegation-abuse</text>
+<text x="56.0" y="492" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ BloodHound · shortest-path</text>
+<text x="56.0" y="517" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ Certipy ESC1-16 · coerce→relay</text>
+<text x="56.0" y="542" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ impacket · NetExec · dsniff</text>
+<rect x="554.6666666666667" y="382" width="490.6666666666667" height="258" rx="9" fill="#141820" stroke="#6b8f71" stroke-width="1.6"/>
+<rect x="554.6666666666667" y="382" width="490.6666666666667" height="36" rx="9" fill="#1b2129" stroke="#6b8f71" stroke-width="0"/>
+<text x="570.6666666666667" y="405" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" font-weight="700" fill="#e6ebf0" text-anchor="start" letter-spacing="0">CLOUD &amp; K8S</text>
+<text x="570.6666666666667" y="442" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ IAM-privesc-Graph</text>
+<text x="570.6666666666667" y="467" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ S3-enum · bucket-misconfig</text>
+<text x="570.6666666666667" y="492" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ SSRF → IMDS</text>
+<text x="570.6666666666667" y="517" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ K8s-attack · container-escape</text>
+<text x="570.6666666666667" y="542" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ serverless-surface</text>
+<rect x="1069.3333333333335" y="382" width="490.6666666666667" height="258" rx="9" fill="#141820" stroke="#38617a" stroke-width="1.6"/>
+<rect x="1069.3333333333335" y="382" width="490.6666666666667" height="36" rx="9" fill="#1b2129" stroke="#38617a" stroke-width="0"/>
+<text x="1085.3333333333335" y="405" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" font-weight="700" fill="#e6ebf0" text-anchor="start" letter-spacing="0">MOBILE &amp; RE</text>
+<rect x="1488.2000000000003" y="389" width="59.8" height="22" rx="11" fill="#0b0f14" stroke="#38617a" stroke-width="1.2"/>
+<text x="1518.1000000000001" y="404" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" font-weight="600" fill="#38617a" text-anchor="middle" letter-spacing="0">statik</text>
+<text x="1085.3333333333335" y="442" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ apktool · jadx (MCP)</text>
+<text x="1085.3333333333335" y="467" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ frida · cert-pinning-bypass</text>
+<text x="1085.3333333333335" y="492" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ ghidra · radare2 · angr</text>
+<text x="1085.3333333333335" y="517" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ re_triage · capa · floss</text>
+<text x="1085.3333333333335" y="542" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ smali · firmware/binwalk</text>
+<rect x="40.0" y="664" width="490.6666666666667" height="258" rx="9" fill="#141820" stroke="#8f7fb0" stroke-width="1.6"/>
+<rect x="40.0" y="664" width="490.6666666666667" height="36" rx="9" fill="#1b2129" stroke="#8f7fb0" stroke-width="0"/>
+<text x="56.0" y="687" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" font-weight="700" fill="#e6ebf0" text-anchor="start" letter-spacing="0">PURPLE &amp; DETECTION</text>
+<rect x="473.46666666666675" y="671" width="45.2" height="22" rx="11" fill="#0b0f14" stroke="#8f7fb0" stroke-width="1.2"/>
+<text x="496.0666666666667" y="686" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" font-weight="600" fill="#8f7fb0" text-anchor="middle" letter-spacing="0">blue</text>
+<text x="56.0" y="724" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ Sigma · Falco · Sysmon</text>
+<text x="56.0" y="749" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ detection-gap-mapping</text>
+<text x="56.0" y="774" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ telemetry-timeline</text>
+<text x="56.0" y="799" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ offsec-lab · chains</text>
+<text x="56.0" y="824" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ evasion-analysis</text>
+<rect x="554.6666666666667" y="664" width="490.6666666666667" height="258" rx="9" fill="#141820" stroke="#b08d57" stroke-width="1.6"/>
+<rect x="554.6666666666667" y="664" width="490.6666666666667" height="36" rx="9" fill="#1b2129" stroke="#b08d57" stroke-width="0"/>
+<text x="570.6666666666667" y="687" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" font-weight="700" fill="#e6ebf0" text-anchor="start" letter-spacing="0">AI / LLM RED-TEAM</text>
+<rect x="980.8333333333335" y="671" width="52.5" height="22" rx="11" fill="#0b0f14" stroke="#b08d57" stroke-width="1.2"/>
+<text x="1007.0833333333335" y="686" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" font-weight="600" fill="#b08d57" text-anchor="middle" letter-spacing="0">fresh</text>
+<text x="570.6666666666667" y="724" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ garak · PyRIT</text>
+<text x="570.6666666666667" y="749" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ prompt-injection-psychologie</text>
+<text x="570.6666666666667" y="774" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ ai-surface-hunt · RAG-bleed</text>
+<text x="570.6666666666667" y="799" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ MCP/tool-calling-abuse</text>
+<text x="570.6666666666667" y="824" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ vulnhuntr-scan</text>
+<rect x="1069.3333333333335" y="664" width="490.6666666666667" height="258" rx="9" fill="#141820" stroke="#5f9bb0" stroke-width="1.6"/>
+<rect x="1069.3333333333335" y="664" width="490.6666666666667" height="36" rx="9" fill="#1b2129" stroke="#5f9bb0" stroke-width="0"/>
+<text x="1085.3333333333335" y="687" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" font-weight="700" fill="#e6ebf0" text-anchor="start" letter-spacing="0">SAFETY-HOOKS</text>
+<rect x="1502.8000000000002" y="671" width="45.2" height="22" rx="11" fill="#0b0f14" stroke="#5f9bb0" stroke-width="1.2"/>
+<text x="1525.4000000000003" y="686" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" font-weight="600" fill="#5f9bb0" text-anchor="middle" letter-spacing="0">gate</text>
+<text x="1085.3333333333335" y="724" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ injection_scanner</text>
+<text x="1085.3333333333335" y="749" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ scope_authz_gate</text>
+<text x="1085.3333333333335" y="774" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ kill_switch · loop_detection</text>
+<text x="1085.3333333333335" y="799" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ safe_hook (anti-lockout)</text>
+<text x="1085.3333333333335" y="824" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ prompt_prefilter</text>
+</svg>

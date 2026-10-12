@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 470" width="1600" height="470" font-family="DejaVu Sans, system-ui, sans-serif">
+<defs><marker id="arr" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L7,3 L0,6 Z" fill="#8a94a3"/></marker></defs>
+<rect width="1600" height="470" fill="#0b0f14"/>
+<text x="40" y="46" font-family="JetBrains Mono, ui-monospace, monospace" font-size="20" font-weight="700" fill="#e6ebf0" text-anchor="start" letter-spacing="1">22 MCP-SERVER — DIE WERKZEUG-SCHNITTSTELLEN</text>
+<text x="40" y="70" font-family="DejaVu Sans, system-ui, sans-serif" font-size="13.5" font-weight="400" fill="#8a94a3" text-anchor="start" letter-spacing="0">jeder Server ist ein scharfes Werkzeug am selben Steuerpult — gruppiert nach Zweck</text>
+<rect x="40" y="100" width="250" height="46" rx="9" fill="#1b2129" stroke="#5f9bb0" stroke-width="1.5"/>
+<text x="56" y="128" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="700" fill="#5f9bb0" text-anchor="start" letter-spacing="0">RECON &amp; OSINT</text>
+<rect x="310" y="109" width="71.6" height="28" rx="6" fill="#141820" stroke="#5f9bb0" stroke-width="1.3"/>
+<text x="345.8" y="128" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">shodan</text>
+<rect x="395.6" y="109" width="71.6" height="28" rx="6" fill="#141820" stroke="#5f9bb0" stroke-width="1.3"/>
+<text x="431.40000000000003" y="128" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">censys</text>
+<rect x="481.20000000000005" y="109" width="45.8" height="28" rx="6" fill="#141820" stroke="#5f9bb0" stroke-width="1.3"/>
+<text x="504.1" y="128" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">exa</text>
+<rect x="541.0" y="109" width="123.19999999999999" height="28" rx="6" fill="#141820" stroke="#5f9bb0" stroke-width="1.3"/>
+<text x="602.6" y="128" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">brave-search</text>
+<rect x="678.2" y="109" width="97.39999999999999" height="28" rx="6" fill="#141820" stroke="#5f9bb0" stroke-width="1.3"/>
+<text x="726.9000000000001" y="128" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">firecrawl</text>
+<rect x="789.6" y="109" width="63.0" height="28" rx="6" fill="#141820" stroke="#5f9bb0" stroke-width="1.3"/>
+<text x="821.1" y="128" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">fetch</text>
+<rect x="40" y="162" width="250" height="46" rx="9" fill="#1b2129" stroke="#b08d57" stroke-width="1.5"/>
+<text x="56" y="190" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="700" fill="#b08d57" text-anchor="start" letter-spacing="0">CODE &amp; STATIK</text>
+<rect x="310" y="171" width="97.39999999999999" height="28" rx="6" fill="#141820" stroke="#b08d57" stroke-width="1.3"/>
+<text x="358.7" y="190" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">codegraph</text>
+<rect x="421.4" y="171" width="140.39999999999998" height="28" rx="6" fill="#141820" stroke="#b08d57" stroke-width="1.3"/>
+<text x="491.59999999999997" y="190" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">claude-context</text>
+<rect x="575.8" y="171" width="80.19999999999999" height="28" rx="6" fill="#141820" stroke="#b08d57" stroke-width="1.3"/>
+<text x="615.9" y="190" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">semgrep</text>
+<rect x="670.0" y="171" width="80.19999999999999" height="28" rx="6" fill="#141820" stroke="#b08d57" stroke-width="1.3"/>
+<text x="710.1" y="190" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">repomix</text>
+<rect x="764.2" y="171" width="106.0" height="28" rx="6" fill="#141820" stroke="#b08d57" stroke-width="1.3"/>
+<text x="817.2" y="190" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">filesystem</text>
+<rect x="40" y="224" width="250" height="46" rx="9" fill="#1b2129" stroke="#8f7fb0" stroke-width="1.5"/>
+<text x="56" y="252" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="700" fill="#8f7fb0" text-anchor="start" letter-spacing="0">APPSEC &amp; MOBILE</text>
+<rect x="310" y="233" width="63.0" height="28" rx="6" fill="#141820" stroke="#8f7fb0" stroke-width="1.3"/>
+<text x="341.5" y="252" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">caido</text>
+<rect x="387.0" y="233" width="149.0" height="28" rx="6" fill="#141820" stroke="#8f7fb0" stroke-width="1.3"/>
+<text x="461.5" y="252" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">chrome-devtools</text>
+<rect x="550.0" y="233" width="80.19999999999999" height="28" rx="6" fill="#141820" stroke="#8f7fb0" stroke-width="1.3"/>
+<text x="590.1" y="252" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">apktool</text>
+<rect x="644.2" y="233" width="140.39999999999998" height="28" rx="6" fill="#141820" stroke="#8f7fb0" stroke-width="1.3"/>
+<text x="714.4000000000001" y="252" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">writeup-search</text>
+<rect x="40" y="286" width="250" height="46" rx="9" fill="#1b2129" stroke="#6b8f71" stroke-width="1.5"/>
+<text x="56" y="314" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="700" fill="#6b8f71" text-anchor="start" letter-spacing="0">WISSEN &amp; STEUERUNG</text>
+<rect x="310" y="295" width="123.19999999999999" height="28" rx="6" fill="#141820" stroke="#6b8f71" stroke-width="1.3"/>
+<text x="371.6" y="314" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">memory-graph</text>
+<rect x="447.2" y="295" width="183.4" height="28" rx="6" fill="#141820" stroke="#6b8f71" stroke-width="1.3"/>
+<text x="538.9" y="314" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">sequential-thinking</text>
+<rect x="644.6" y="295" width="114.6" height="28" rx="6" fill="#141820" stroke="#6b8f71" stroke-width="1.3"/>
+<text x="701.9" y="314" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">todo-server</text>
+<rect x="773.2" y="295" width="80.19999999999999" height="28" rx="6" fill="#141820" stroke="#6b8f71" stroke-width="1.3"/>
+<text x="813.3000000000001" y="314" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">youtube</text>
+<rect x="867.4000000000001" y="295" width="54.4" height="28" rx="6" fill="#141820" stroke="#6b8f71" stroke-width="1.3"/>
+<text x="894.6000000000001" y="314" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">time</text>
+<rect x="40" y="348" width="250" height="46" rx="9" fill="#1b2129" stroke="#38617a" stroke-width="1.5"/>
+<text x="56" y="376" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="700" fill="#38617a" text-anchor="start" letter-spacing="0">DEV &amp; BEFUNDE</text>
+<rect x="310" y="357" width="71.6" height="28" rx="6" fill="#141820" stroke="#38617a" stroke-width="1.3"/>
+<text x="345.8" y="376" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">github</text>
+<rect x="395.6" y="357" width="114.6" height="28" rx="6" fill="#141820" stroke="#38617a" stroke-width="1.3"/>
+<text x="452.90000000000003" y="376" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">findings-db</text>
+</svg>

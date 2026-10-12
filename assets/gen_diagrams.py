@@ -250,6 +250,136 @@ def diagram_pipeline():
            size=12.5, fill=DIM, anchor="middle")
     return s.render()
 
+def tile(s, x, y, w, h, title, color, items, badge=None):
+    s.rect(x, y, w, h, fill=PANEL, stroke=color, sw=1.6)
+    s.rect(x, y, w, 36, fill=PANEL2, stroke=color, sw=0, rx=9)
+    s.text(x+16, y+23, title, size=13, fill=TEXT, weight="700", family=MONO)
+    if badge:
+        bw = 16 + len(badge)*7.3
+        s.rect(x+w-bw-12, y+7, bw, 22, fill=BG, stroke=color, sw=1.2, rx=11)
+        s.text(x+w-bw/2-12, y+22, badge, size=11, fill=color, family=MONO, weight="600", anchor="middle")
+    yy = y+60
+    for it in items:
+        s.text(x+16, yy, "▸ "+it, size=12, fill=TEXT, family=MONO)
+        yy += 25
+
+# ============================================================
+# ARSENAL-LANDKARTE (1600x950)
+# ============================================================
+def arsenal():
+    W, H = 1600, 950
+    s = SVG(W, H)
+    s.text(40, 46, "DAS ARSENAL — AUF EINEN BLICK", size=20, fill=TEXT, weight="700", family=MONO, ls="1.5")
+    s.text(40, 70, "autorisierte offensive & defensive Fähigkeiten, in Werkzeuge und reproduzierbare Verfahren gegossen",
+           size=13.5, fill=DIM)
+    cats = [
+        ("RECON & OSINT", TEAL, "Phase 1", ["nmap_max · masscan","subfinder · amass","httpx · katana · gau","shodan · censys (MCP)","exa · firecrawl","target-radar · asset-monitor"]),
+        ("WEB-APPSEC", TEAL, "aktiv", ["ffuf · gobuster · feroxbuster","caido / burp (MCP-Bridge)","nuclei · dalfox · arjun","desync · cache-deception","authrecon · elite-auth-hunt"]),
+        ("EXPLOIT & CHAIN", GOLD, "20 Klassen", ["vuln-* : IDOR·SQLi·SSRF","SSTI·RCE·XXE·JWT·XSS","mass-assign·path-traversal","chaining · variant-hunt","poc-validator · cold-witness"]),
+        ("AD & LATERAL", VIOLET, "intern", ["Kerberoast · AS-REP","DCSync · delegation-abuse","BloodHound · shortest-path","Certipy ESC1-16 · coerce→relay","impacket · NetExec · dsniff"]),
+        ("CLOUD & K8S", GREEN, "", ["IAM-privesc-Graph","S3-enum · bucket-misconfig","SSRF → IMDS","K8s-attack · container-escape","serverless-surface"]),
+        ("MOBILE & RE", TEAL2, "statik", ["apktool · jadx (MCP)","frida · cert-pinning-bypass","ghidra · radare2 · angr","re_triage · capa · floss","smali · firmware/binwalk"]),
+        ("PURPLE & DETECTION", VIOLET, "blue", ["Sigma · Falco · Sysmon","detection-gap-mapping","telemetry-timeline","offsec-lab · chains","evasion-analysis"]),
+        ("AI / LLM RED-TEAM", GOLD, "fresh", ["garak · PyRIT","prompt-injection-psychologie","ai-surface-hunt · RAG-bleed","MCP/tool-calling-abuse","vulnhuntr-scan"]),
+        ("SAFETY-HOOKS", TEAL, "gate", ["injection_scanner","scope_authz_gate","kill_switch · loop_detection","safe_hook (anti-lockout)","prompt_prefilter"]),
+    ]
+    cols, rows = 3, 3
+    mx, gap = 40, 24
+    tw = (W - 2*mx - (cols-1)*gap)/cols
+    th = 258
+    y0 = 100
+    for i,(title,col,badge,items) in enumerate(cats):
+        r, c = divmod(i, cols)
+        x = mx + c*(tw+gap)
+        y = y0 + r*(th+gap)
+        tile(s, x, y, tw, th, title, col, items, badge or None)
+    return s.render()
+
+# ============================================================
+# AUTONOMER BETRIEB (1520x640)
+# ============================================================
+def betrieb():
+    W, H = 1520, 660
+    s = SVG(W, H)
+    s.text(40, 46, "AUTONOMER BETRIEB — SELBST-BEWACHT, MELDET AUFS HANDY", size=20, fill=TEXT, weight="700", family=MONO, ls="1")
+    s.text(40, 70, "läuft ohne Aufsicht weiter — jede Aktion abgesichert, jedes Ereignis gemeldet, alles rückgekoppelt ins Gedächtnis",
+           size=13.5, fill=DIM)
+    # Left: every action -> hooks gate
+    s.rect(40, 120, 300, 54, fill=PANEL, stroke=DIM, sw=1.4)
+    s.text(190, 152, "JEDE TOOL-AKTION", size=14, fill=TEXT, weight="600", family=MONO, anchor="middle")
+    s.rect(40, 210, 300, 150, fill=PANEL2, stroke=TEAL, sw=1.8)
+    s.text(60, 238, "SAFETY-HOOKS", size=14, fill=TEAL, weight="700", family=MONO)
+    for j,ln in enumerate(["injection_scanner","scope_authz_gate","kill_switch · loop_detection","safe_hook · prompt_prefilter","über 16 Lifecycle-Events"]):
+        s.text(60, 264+j*20, "▸ "+ln, size=11.5, fill=TEXT if j<4 else DIM, family=MONO)
+    s.line(190, 174, 190, 210, stroke=DIM, sw=1.5)
+
+    # Middle: radars + health
+    s.rect(400, 150, 320, 110, fill=PANEL, stroke=GREEN, sw=1.7)
+    s.text(420, 178, "AUTONOME RADARS", size=13.5, fill=GREEN, weight="700", family=MONO)
+    for j,ln in enumerate(["target-radar · trend-radar","asset-monitor · hacktivity-stream"]):
+        s.text(420, 202+j*20, "▸ "+ln, size=11.5, fill=TEXT, family=MONO)
+    s.text(420, 246, "scannen rund um die Uhr", size=11, fill=DIM, family=MONO)
+    s.rect(400, 290, 320, 90, fill=PANEL, stroke=VIOLET, sw=1.7)
+    s.text(420, 318, "HEALTH · SELF-AUDIT", size=13.5, fill=VIOLET, weight="700", family=MONO)
+    for j,ln in enumerate(["Heartbeat · Token-Rot-Check","OnFailure-Netz · Selbstheilung"]):
+        s.text(420, 342+j*20, "▸ "+ln, size=11.5, fill=TEXT, family=MONO)
+    s.line(340, 285, 400, 210, stroke=DIM, sw=1.4)
+    s.line(340, 285, 400, 330, stroke=DIM, sw=1.4)
+
+    # Right: ntfy + phone
+    s.rect(790, 150, 320, 110, fill=PANEL2, stroke=GOLD, sw=1.8)
+    s.text(810, 178, "ntfy  ·  SELF-HOSTED :8936", size=13, fill=GOLD, weight="700", family=MONO)
+    for j,ln in enumerate(["Tailscale-only + Token","Topics bb-urgent · radar · health"]):
+        s.text(810, 202+j*20, "▸ "+ln, size=11.5, fill=TEXT, family=MONO)
+    s.text(810, 246, "Push in Sekunden", size=11, fill=DIM, family=MONO)
+    s.rect(790, 290, 320, 90, fill=PANEL, stroke=TEAL2, sw=1.7)
+    s.text(810, 318, "HANDY · ACTION-BUTTONS", size=13, fill=TEAL2, weight="700", family=MONO)
+    s.text(810, 342, "▸ ntfy-webhook :8939", size=11.5, fill=TEXT, family=MONO)
+    s.text(810, 362, "▸ Knopfdruck → Server-Aktion", size=11.5, fill=TEXT, family=MONO)
+    s.line(720, 205, 790, 205, stroke=DIM, sw=1.5)
+    s.line(720, 335, 790, 335, stroke=DIM, sw=1.5)
+    # feedback phone -> action back to left (RemoteTrigger)
+    s.path(f"M 950 380 C 950 440, 190 460, 190 405", stroke=TEAL2, sw=1.5, dash="5 4")
+    s.text(W/2, 452, "Knopf am Handy löst serverseitig aus  ·  RemoteTrigger", size=11.5, fill=TEAL2, anchor="middle", family=MONO)
+
+    # bottom memory bar
+    s.rect(40, 500, W-80, 64, fill=PANEL2, stroke=GOLD, sw=1.6)
+    s.text(64, 528, "RÜCKKOPPLUNG", size=13, fill=GOLD, weight="700", family=MONO)
+    s.text(64, 550, "jedes Ereignis → session-reflect → 523-Datei-Memory — das System lernt aus seinem eigenen Betrieb",
+           size=13, fill=TEXT)
+    for sxp in (190, 560, 950):
+        s.line(sxp, 380 if sxp!=190 else 360, sxp, 500, stroke="#232b35", sw=1.2, marker=False)
+    return s.render()
+
+# ============================================================
+# MCP-GRID (1600x470)
+# ============================================================
+def mcp():
+    W, H = 1600, 470
+    s = SVG(W, H)
+    s.text(40, 46, "22 MCP-SERVER — DIE WERKZEUG-SCHNITTSTELLEN", size=20, fill=TEXT, weight="700", family=MONO, ls="1")
+    s.text(40, 70, "jeder Server ist ein scharfes Werkzeug am selben Steuerpult — gruppiert nach Zweck",
+           size=13.5, fill=DIM)
+    groups = [
+        ("RECON & OSINT", TEAL,  ["shodan","censys","exa","brave-search","firecrawl","fetch"]),
+        ("CODE & STATIK", GOLD,  ["codegraph","claude-context","semgrep","repomix","filesystem"]),
+        ("APPSEC & MOBILE", VIOLET, ["caido","chrome-devtools","apktool","writeup-search"]),
+        ("WISSEN & STEUERUNG", GREEN, ["memory-graph","sequential-thinking","todo-server","youtube","time"]),
+        ("DEV & BEFUNDE", TEAL2, ["github","findings-db"]),
+    ]
+    y = 100
+    for title,col,servers in groups:
+        s.rect(40, y, 250, 46, fill=PANEL2, stroke=col, sw=1.5)
+        s.text(56, y+28, title, size=12.5, fill=col, weight="700", family=MONO)
+        cx = 310
+        for sv in servers:
+            w = 20 + len(sv)*8.6
+            s.rect(cx, y+9, w, 28, fill=PANEL, stroke=col, sw=1.3, rx=6)
+            s.text(cx+w/2, y+28, sv, size=12.5, fill=TEXT, family=MONO, anchor="middle")
+            cx += w + 14
+        y += 62
+    return s.render()
+
 # ============================================================
 # BANNER (1600x500) — Profil-Kopf
 # ============================================================
@@ -321,6 +451,9 @@ if __name__ == "__main__":
     for name, fn in [("orchestrierung", diagram_orchestration),
                      ("memory", diagram_memory),
                      ("pipeline", diagram_pipeline),
+                     ("arsenal", arsenal),
+                     ("betrieb", betrieb),
+                     ("mcp", mcp),
                      ("banner", banner)]:
         p = os.path.join(out, f"{name}.svg")
         with open(p, "w") as f:
