@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" width="1200" height="820" font-family="DejaVu Sans, system-ui, sans-serif">
+<defs><marker id="arr" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L7,3 L0,6 Z" fill="#8a94a3"/></marker></defs>
+<rect width="1200" height="820" fill="#0b0f14"/>
+<text x="40" y="46" font-family="JetBrains Mono, ui-monospace, monospace" font-size="20" font-weight="700" fill="#e6ebf0" text-anchor="start" letter-spacing="1.5">DIE ORCHESTRIERUNGS-MASCHINE</text>
+<text x="40" y="70" font-family="DejaVu Sans, system-ui, sans-serif" font-size="13.5" font-weight="400" fill="#8a94a3" text-anchor="start" letter-spacing="0">ein Dirigent, viele Spezialisten — jedes Ergebnis geprüft, bevor es „fertig“ heißt</text>
+<rect x="300" y="96" width="600" height="70" rx="9" fill="#1b2129" stroke="#b08d57" stroke-width="2"/>
+<text x="600.0" y="126" font-family="JetBrains Mono, ui-monospace, monospace" font-size="15" font-weight="700" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">SHOWRUNNER / EXECUTIVE PRODUCER</text>
+<text x="600.0" y="148" font-family="DejaVu Sans, system-ui, sans-serif" font-size="12.5" font-weight="400" fill="#8a94a3" text-anchor="middle" letter-spacing="0">zerlegt · weist zu · verkettet · härtet · verantwortet das Ganze</text>
+<rect x="804" y="104" width="103.6" height="22" rx="11" fill="#0b0f14" stroke="#b08d57" stroke-width="1.3"/>
+<text x="855.8" y="119" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="600" fill="#b08d57" text-anchor="middle" letter-spacing="0">Opus · denkt</text>
+<rect x="128.0" y="210" width="200" height="54" rx="9" fill="#141820" stroke="#5f9bb0" stroke-width="1.6"/>
+<text x="228.0" y="236" font-family="JetBrains Mono, ui-monospace, monospace" font-size="15" font-weight="600" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">ZERLEGEN</text>
+<text x="142.0" y="236" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" font-weight="700" fill="#5f9bb0" text-anchor="start" letter-spacing="0">1</text>
+<rect x="376.0" y="210" width="200" height="54" rx="9" fill="#141820" stroke="#5f9bb0" stroke-width="1.6"/>
+<text x="476.0" y="236" font-family="JetBrains Mono, ui-monospace, monospace" font-size="15" font-weight="600" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">ZUWEISEN</text>
+<text x="390.0" y="236" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" font-weight="700" fill="#5f9bb0" text-anchor="start" letter-spacing="0">2</text>
+<line x1="328.0" y1="237" x2="376.0" y2="237" stroke="#8a94a3" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="624.0" y="210" width="200" height="54" rx="9" fill="#141820" stroke="#5f9bb0" stroke-width="1.6"/>
+<text x="724.0" y="236" font-family="JetBrains Mono, ui-monospace, monospace" font-size="15" font-weight="600" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">PARALLEL</text>
+<text x="638.0" y="236" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" font-weight="700" fill="#5f9bb0" text-anchor="start" letter-spacing="0">3</text>
+<line x1="576.0" y1="237" x2="624.0" y2="237" stroke="#8a94a3" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="872.0" y="210" width="200" height="54" rx="9" fill="#141820" stroke="#8f7fb0" stroke-width="1.6"/>
+<text x="972.0" y="236" font-family="JetBrains Mono, ui-monospace, monospace" font-size="15" font-weight="600" fill="#e6ebf0" text-anchor="middle" letter-spacing="0">HÄRTEN</text>
+<text x="886.0" y="236" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" font-weight="700" fill="#8f7fb0" text-anchor="start" letter-spacing="0">4</text>
+<line x1="824.0" y1="237" x2="872.0" y2="237" stroke="#8a94a3" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="228.0" y="282" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" font-weight="400" fill="#8a94a3" text-anchor="middle" letter-spacing="0">in Teilaufgaben</text>
+<text x="476.0" y="282" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" font-weight="400" fill="#8a94a3" text-anchor="middle" letter-spacing="0">Spezialist je Teil</text>
+<text x="724.0" y="282" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" font-weight="400" fill="#8a94a3" text-anchor="middle" letter-spacing="0">unabhängige parallel</text>
+<text x="972.0" y="282" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" font-weight="400" fill="#8a94a3" text-anchor="middle" letter-spacing="0">adversarial prüfen</text>
+<line x1="600.0" y1="166" x2="600.0" y2="210" stroke="#8a94a3" stroke-width="1.6" marker-end="url(#arr)"/>
+<path d="M 972.0 300 C 972.0 340, 228.0 340, 228.0 300" fill="none" stroke="#8f7fb0" stroke-width="1.6" marker-end="url(#arr)" stroke-dasharray="5 4"/>
+<text x="600.0" y="364" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" font-weight="400" fill="#8f7fb0" text-anchor="middle" letter-spacing="0">Schleife bis alle Teile bestehen</text>
+<text x="1072.0" y="196" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11" font-weight="600" fill="#6b8f71" text-anchor="end" letter-spacing="0">→ LIVE-VERIFY · MEMORY</text>
+<text x="40" y="400" font-family="JetBrains Mono, ui-monospace, monospace" font-size="15" font-weight="700" fill="#e6ebf0" text-anchor="start" letter-spacing="0">DELEGATION — das Modell folgt der Rolle</text>
+<line x1="40" y1="412" x2="1160" y2="412" stroke="#2b3440" stroke-width="1"/>
+<rect x="40.0" y="428" width="360" height="232" rx="9" fill="#141820" stroke="#b08d57" stroke-width="1.6"/>
+<rect x="40.0" y="428" width="360" height="36" rx="9" fill="#1b2129" stroke="#b08d57" stroke-width="0"/>
+<text x="56.0" y="451" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13.5" font-weight="700" fill="#e6ebf0" text-anchor="start" letter-spacing="0">LEADS — entscheiden</text>
+<rect x="280.0" y="435" width="103.6" height="22" rx="11" fill="#0b0f14" stroke="#b08d57" stroke-width="1.3"/>
+<text x="331.8" y="450" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="600" fill="#b08d57" text-anchor="middle" letter-spacing="0">Opus · denkt</text>
+<text x="58.0" y="490" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ pipeline-architekt</text>
+<text x="58.0" y="517" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ drehbuch-autor</text>
+<text x="58.0" y="544" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ motion-direktor</text>
+<text x="58.0" y="571" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ strategie-analyst</text>
+<text x="58.0" y="598" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ red-team-overseer</text>
+<text x="58.0" y="625" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#8a94a3" text-anchor="start" letter-spacing="0">▸ + Architektur &amp; Urteil</text>
+<rect x="420.0" y="428" width="360" height="232" rx="9" fill="#141820" stroke="#5f9bb0" stroke-width="1.6"/>
+<rect x="420.0" y="428" width="360" height="36" rx="9" fill="#1b2129" stroke="#5f9bb0" stroke-width="0"/>
+<text x="436.0" y="451" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13.5" font-weight="700" fill="#e6ebf0" text-anchor="start" letter-spacing="0">CRAFT — bauen</text>
+<rect x="660.0" y="435" width="110.89999999999999" height="22" rx="11" fill="#0b0f14" stroke="#5f9bb0" stroke-width="1.3"/>
+<text x="715.45" y="450" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="600" fill="#5f9bb0" text-anchor="middle" letter-spacing="0">Sonnet · baut</text>
+<text x="438.0" y="490" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ ffmpeg-meister</text>
+<text x="438.0" y="517" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ figuren-animator</text>
+<text x="438.0" y="544" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ komponist</text>
+<text x="438.0" y="571" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ audio-ingenieur</text>
+<text x="438.0" y="598" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ web-hunter · api-security</text>
+<text x="438.0" y="625" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#8a94a3" text-anchor="start" letter-spacing="0">▸ + 40 weitere Hände</text>
+<rect x="800.0" y="428" width="360" height="232" rx="9" fill="#141820" stroke="#6b8f71" stroke-width="1.6"/>
+<rect x="800.0" y="428" width="360" height="36" rx="9" fill="#1b2129" stroke="#6b8f71" stroke-width="0"/>
+<text x="816.0" y="451" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13.5" font-weight="700" fill="#e6ebf0" text-anchor="start" letter-spacing="0">RESEARCH — belegt</text>
+<rect x="1040.0" y="435" width="110.89999999999999" height="22" rx="11" fill="#0b0f14" stroke="#6b8f71" stroke-width="1.3"/>
+<text x="1095.45" y="450" font-family="JetBrains Mono, ui-monospace, monospace" font-size="11.5" font-weight="600" fill="#6b8f71" text-anchor="middle" letter-spacing="0">Haiku · sucht</text>
+<text x="818.0" y="490" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ recherche-scout</text>
+<text x="818.0" y="517" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ surface-sweeper</text>
+<text x="818.0" y="544" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ recon-reader</text>
+<text x="818.0" y="571" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">▸ osint-collector</text>
+<text x="818.0" y="598" font-family="JetBrains Mono, ui-monospace, monospace" font-size="12.5" font-weight="400" fill="#8a94a3" text-anchor="start" letter-spacing="0">▸ + Quelle statt Meinung</text>
+<rect x="40.0" y="686" width="1120" height="56" rx="9" fill="#1b2129" stroke="#8f7fb0" stroke-width="1.8"/>
+<text x="60.0" y="710" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13.5" font-weight="700" fill="#8f7fb0" text-anchor="start" letter-spacing="0">UNABHÄNGIGES QC-GATE</text>
+<text x="60.0" y="730" font-family="DejaVu Sans, system-ui, sans-serif" font-size="12.5" font-weight="400" fill="#e6ebf0" text-anchor="start" letter-spacing="0">skeptical-validator · video-qc-pruefer · cold-witness — prüfen NUR fremde Arbeit</text>
+<text x="1140.0" y="720" font-family="JetBrains Mono, ui-monospace, monospace" font-size="13" font-weight="700" fill="#8f7fb0" text-anchor="end" letter-spacing="0">maker ≠ checker</text>
+<line x1="600.0" y1="660" x2="600.0" y2="686" stroke="#8a94a3" stroke-width="1.5" marker-end="url(#arr)"/>
+</svg>
